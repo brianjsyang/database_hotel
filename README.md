@@ -10,12 +10,12 @@ Users that are ‘staff’ have the ability to update and delete certain guest r
 
 Step by Step instructions
  
-Download hotel.zip
-Move the hotel file into C:\xampp\htdocs
-Create a database called Hotel
-Import the Hotel.sql first (this is to create the tables)
-Import the hotel_insert.sql (inserts the non-user input rows such as branches, floors, rooms etc)
-Open your browser and type in localhost/hotel/index.php
+1. Download hotel.zip
+2. Move the hotel file into C:\xampp\htdocs
+3. Create a database called Hotel
+4. Import the Hotel.sql first (this is to create the tables)
+5. Import the hotel_insert.sql (inserts the non-user input rows such as branches, floors, rooms etc)
+6. Open your browser and type in localhost/hotel/index.php
 
 For staff login (at the top right of the page),
 Any staff_ID from the table “staff” will work as a login.  As an example, using 100 will ‘login’ to the staff page.  Anything else that is not a staff_ID will not work
