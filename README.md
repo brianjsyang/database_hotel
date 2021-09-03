@@ -6,15 +6,24 @@ The project helped members learn how to code in html, css, and php.
 We accomplished making a hotel directory website where the user is able to select a location, check in and out dates, and a party size, and then select a room, input their name, and successfully book a room. 
 Users that are ‘staff’ have the ability to update and delete certain guest reservations when they log into the page using their staff ID. 
 
+Query Functions used:
+1. Projection Query
+2. Selection Query
+3. Join Query
+4. Division Query
+5. Aggregation Query
+6. Nested Aggregation Query
+7. Delete Operation
+8. Update Operation
+
 
 
 Step by Step instructions
  
 1. Download hotel.zip
 2. Move the hotel file into C:\xampp\htdocs
-3. Create a database called Hotel
-4. Import the Hotel.sql first (this is to create the tables)
-5. Import the hotel_insert.sql (inserts the non-user input rows such as branches, floors, rooms etc)
+3. Create a database called hotel
+4. Import the hotel.sql (The sql will create and insert predefined data)
 6. Open your browser and type in localhost/hotel/index.php
 
 For staff login (at the top right of the page),

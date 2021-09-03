@@ -8,7 +8,7 @@ function db_connect() {
 
     $connectionString = "mysql:dbhost=" . DBHOST . "; dbname =" . DBNAME;
     $dbuser = DBUSER;
-    $dbpass = DBPASS;
+    $dbpass = '';
 
     $pdo = new PDO($connectionString, $dbuser, $dbpass);
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
