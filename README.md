@@ -24,7 +24,7 @@ Step by Step instructions
 2. Move the hotel file into C:\xampp\htdocs
 3. Create a database called hotel
 4. Import the hotel.sql (The sql will create and insert predefined data)
-6. Open your browser and type in localhost/hotel/index.php
+6. Open your browser and type in localhost/database_hotel/index.php
 
 For staff login (at the top right of the page),
 Any staff_ID from the table “staff” will work as a login.  As an example, using 100 will ‘login’ to the staff page.  Anything else that is not a staff_ID will not work
